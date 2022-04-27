@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* tag selector */
+body{
+    background-color: #2E8B57;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('./img/image1.png') no-repeat center center/cover;
+/*     
+    background-image: url(./img/image1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+
+/* id selector */
+#welcome{
+    background-color: #fff;
+}
+
+/* class selector */
+.primary-heading{
+    color: blue;
+}
+
+/* multiple selectors */
+#welcome,#about{
+    border: 1px solid #950505;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* nested selector */
+#welcome .welcomep1{
+
+    color: #17d375;
+}
+
+#welcome .welcomep2{
+    color: orange;
+}
+
+#about{
+    color: #fff;
+}
+
+#about p{
+    font-family: 'Water Brush', cursive;
+}
+
+.bg-1{
+    width: 50px;
+}

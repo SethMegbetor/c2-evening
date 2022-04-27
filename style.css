@@ -1,0 +1,15 @@
+.card {
+    border: 1px solid black;
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.enhance {
+    color: yellow;
+    background-color: black;
+}
+
+#main-header {
+    color: red;
+}

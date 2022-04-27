@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="node.js">
+      <!-- for name -->
+      <h1>Application Form</h1>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="enter your name here" />
+      </div>
+      <!-- For email -->
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="enter your email here" />
+      </div>
+      <!-- For Phone number -->
+      <div>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="enter your phone here" />
+      </div>
+
+      <!-- For message box -->
+      <div>
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          cols="50"
+          rows="5"
+          placeholder="enter your message here"
+        >
+        </textarea>
+      </div>
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" />
+      <!-- For select -->
+      <div>
+        <label for="select">Select your course:</label>
+        <select id="select">
+          <option value="">Select</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <!-- For number -->
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="enter your age here" />
+      </div>
+
+      <div>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthdate" id="birthdate" />
+      </div>
+      <div>
+        <label for="membership">Membership</label>
+        <input type="checkbox" name="likes" id="" />Pear
+        <input type="checkbox" name="likes" id="" />Cocacola
+        <input type="checkbox" name="likes" id="" />Apple
+      </div>
+      <div>
+        <label for="membership">Membership</label>
+        <input type="radio" name="likes" id="" />Pear
+        <input type="radio" name="likes" id="" />Cocacola
+        <input type="radio" name="likes" id="" />Apple
+      </div>
+      <div>
+        <input type="submit" value="submit" />
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>

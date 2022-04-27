@@ -1,0 +1,22 @@
+.bg-1{
+    width: 1000px;
+    height: 1000px;
+    color: black;
+    background: url('./img/image1.png') no-repeat center center/cover;
+
+}
+
+.bg-2{
+    width: 100px;
+    height: 100px;
+    color: black;
+    background: url('./img/person-1.jpg') no-repeat center center/cover;
+
+}
+
+.bg-3{
+    width: 100px;
+    height: 100px;
+    color: black;
+    background: url('./img/person-2.jpg') no-repeat center center/cover;
+}
